@@ -29,7 +29,7 @@ public class GreetingController {
 	@GetMapping("/check")
 	public String sprawdz() {
 		
-		return Integer.toString(suma);
+		return "Suma razem : " + Integer.toString(suma);
 	}
 	
 }

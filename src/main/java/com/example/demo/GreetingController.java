@@ -48,22 +48,27 @@ public class GreetingController {
 		if(kto.equals("1001")) {
 			suma1001 = suma1001 + Integer.valueOf(s1001);
 			temp = s1001;
+			s1001 = "0";
 		}
 		if(kto.equals("1002")) {
 			suma1002 = suma1002 + Integer.valueOf(s1002);
 			temp = s1002;
+			s1002 = "0";
 		}
 		if(kto.equals("1003")) {
 			suma1003 = suma1003 + Integer.valueOf(s1003);
 			temp = s1003;
+			s1003 = "0";
 		}
 		if(kto.equals("1004")) {
 			suma1004 = suma1004 + Integer.valueOf(s1004);
 			temp = s1004;
+			s1004 = "0";
 		}
 		if(kto.equals("1005")) {
 			suma1005 = suma1005 + Integer.valueOf(s1005);
 			temp = s1005;
+			s1005 = "0";
 		}
 		
 		return temp;
@@ -74,19 +79,19 @@ public class GreetingController {
 		
 		String temp = "0";
 		if(kto.equals("1001")) {
-			s1001 = "0";
+			//s1001 = "0";
 		}
 		if(kto.equals("1002")) {
-			s1002 = "0";
+			//s1002 = "0";
 		}
 		if(kto.equals("1003")) {
-			s1003 = "0";
+			//s1003 = "0";
 		}
 		if(kto.equals("1004")) {
-			s1004 = "0";
+			//s1004 = "0";
 		}
 		if(kto.equals("1005")) {
-			s1005 = "0";
+			//s1005 = "0";
 		}
 		
 		return "ok";
